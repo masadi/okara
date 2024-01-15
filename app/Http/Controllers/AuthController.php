@@ -27,7 +27,7 @@ class AuthController extends Controller
     }
     public function register(Request $request)
     {
-        $npsn = ['20576766', '20579411', '69877296'];
+        $npsn = ['70009413'];
         if(!in_array(request()->username, $npsn)){
             return response()->json([
                 'errors'=> [
