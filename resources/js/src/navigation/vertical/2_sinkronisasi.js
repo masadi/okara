@@ -10,13 +10,13 @@ export default [
           resource: 'Administrator',
           action: 'read',
         },
-        {
+        /*{
           icon: 'upload',
           title: 'e-Rapor',
           route: 'sinkronisasi-erapor',
           resource: 'Administrator',
           action: 'read',
-        },
+        },*/
         {
           icon: 'database',
           title: 'Nilai Dapodik',
