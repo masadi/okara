@@ -367,7 +367,7 @@ class AuthController extends Controller
             ]);
         }
         $set_data = $data->data->sekolah;
-        if($set_data->bentuk_pendidikan_id == '15'){
+        if($set_data->bentuk_pendidikan_id == '0'){
             $get_kode_wilayah = $set_data->wilayah;
             $kode_wilayah = $set_data->kode_wilayah;
             $kecamatan = '-';
