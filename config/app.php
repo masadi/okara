@@ -16,6 +16,7 @@ return [
     */
 
     'name' => env('APP_NAME', 'e-Rapor SMK'),
+    'version' => env('APP_VERSION', '1.0.0'),
     'copyright_text' => env('APP_COPYRIGHT_TEXT', ''),
     'copyright_url' => env('APP_COPYRIGHT_URL', ''),
     'registration' => env('REGISTRATION', FALSE),
