@@ -150,7 +150,11 @@ export default {
       logoImg: '/images/logo/logo.png',
       required,
       email,
-      app: store.state.appConfig.app,
+      //app: store.state.appConfig.app,
+      app: {
+        name: '',
+        version: '',
+      }
     }
   },
   computed: {
@@ -170,6 +174,8 @@ export default {
     }
   },
   created() {
+    this.app.name = app_name
+    this.app.version = app_version
     /*if(!app_registration){
       this.$router.replace({name: 'misc-not-authorized'})
     }*/
