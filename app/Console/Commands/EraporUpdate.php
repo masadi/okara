@@ -91,7 +91,7 @@ class EraporUpdate extends Command
             [
                 'tahun_ajaran_id' => 2020,
                 'nama' => '2020/2021',
-                'periode_aktif' => 1,   
+                'periode_aktif' => 0,   
                 'semester' => [
                     [
                         'semester_id' => 20201,
@@ -110,7 +110,7 @@ class EraporUpdate extends Command
             [
                 'tahun_ajaran_id' => 2021,
                 'nama' => '2021/2022',
-                'periode_aktif' => 1,   
+                'periode_aktif' => 0,   
                 'semester' => [
                     [
                         'semester_id' => 20211,
@@ -129,7 +129,7 @@ class EraporUpdate extends Command
             [
                 'tahun_ajaran_id' => 2022,
                 'nama' => '2022/2023',
-                'periode_aktif' => 1,   
+                'periode_aktif' => 0,   
                 'semester' => [
                     [
                         'semester_id' => 20221,
