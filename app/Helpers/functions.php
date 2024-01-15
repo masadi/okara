@@ -473,6 +473,9 @@ function nama_bentuk_pendidikan($id){
     if($id == 13){
         $bentuk = 'SEKOLAH MENENGAH ATAS';
     }
+    if($id == 15){
+        $bentuk = 'SEKOLAH MENENGAH KEJURUAN';
+    }
     return $bentuk;
 }
 function id_bentuk_pendidikan($id){
@@ -485,6 +488,9 @@ function id_bentuk_pendidikan($id){
     }
     if($id == 13){
         $bentuk = 'SMA';
+    }
+    if($id == 15){
+        $bentuk = 'SMK';
     }
     return $bentuk;
 }
